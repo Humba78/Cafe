@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+}
+
+.firstDiv-Paragraph{
+    background-color: lightgreen;
+    width: 600px;
+    height: 200px;
+    font-size: 21px;
+    margin: 20px;
+    padding:20px;
+}

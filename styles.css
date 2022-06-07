@@ -1,0 +1,110 @@
+
+img {
+    width: 300px;
+}
+
+body {
+    color:brown;
+    margin: 0px auto;
+    font-size: 19px;
+    line-height: 1.8;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: rgb(111, 0, 255);
+}
+
+a:hover{
+    text-decoration: none;
+    color:magenta;
+}
+
+header {
+    background-color:darkgrey;
+    margin: 0px auto;
+}
+
+.project{
+    background-color:lightskyblue;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.project a{
+    color: #f7fff7;
+    background-color:midnightblue;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.project a:hover{
+    background-color: rgb(111, 0, 255, 80);
+}
+
+.work{
+    background-color: greenyellow;
+}
+
+footer{
+    background-color: lightsteelblue;
+    margin: 0px auto;
+}
+
+.content-wrap{
+    max-width: 800px;
+    width: 85%;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+
+.school{
+    background-color: seagreen;
+}
+
+.more{
+    background-color:salmon;
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.more img{
+    float: middle;
+  margin-right: 20px;
+}
+
+h1 {
+    margin: 0px auto;
+}
+
+h2 {
+    margin: 0px auto;
+}
+
+p {
+    margin: 0px auto; 
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+p {
+    display: flex;
+}
+
+.education{
+    background-image: url(../images/aaaa.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+/*.project-item{
+    overflow: hidden;
+}
+.project-item img {
+    float: left;
+}

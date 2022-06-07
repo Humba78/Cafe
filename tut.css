@@ -1,0 +1,71 @@
+.flex{
+    display: flex;
+}
+
+.firstDiv-Paragraph{
+    background-color: lightgreen;
+    width: 600px;
+    height: 200px;
+    font-size: 21px;
+    margin: 20px;
+    padding:20px;
+}
+
+
+
+
+
+/*----------------------------
+ selectors : classes
+             Tags
+             id
+
+----------------------------------*/
+
+p{
+    color: blue;
+}
+
+h1{
+    font-size: 45px; 
+    text-align: center;
+    margin: 40px; 
+}
+
+
+.secondDiv-Paragraph{
+    background-color: lightpink;
+    width: 600px;
+    height: 200px;
+    font-size: 21px;
+    margin: 20px;
+    padding:20px;
+}
+
+#ClickButton{
+    background-color: blueviolet;
+    border: #000 solid 1px;
+    width: 120px;
+    height: 70px;
+    transition: .60s;
+
+}
+
+#ClickButton:hover{
+    background-color: brown;
+    border: #eee solid 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

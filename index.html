@@ -1,101 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xola Ketsiwe. CV</title>
-    <link rel="stylesheet" href="css/styles.css"> 
-  </head>
-  <body>
-    <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <div class="content-wrap">
-        <h1>Xola Ketsiwe</h1>
-        <h2>Programmer</h2>
-
-        <p>I enjoy being around people because I am able to gain knowledge from individuals experiences. My goal is to focus on my studies so that I can be able to make a change at home and improve our lifestyle. I am passionate about Forex Trading Market.</p>
-      </div>
-      </header>
-
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="project" >
-        <div class="content-wrap">
-        <h2><strong>Working on my own project at the moment.</strong></h2>
-        <p>This is my Linkdin you can browse through it <a href="https://www.linkedin.com/in/xola-ketsiwe-37a1441a5" target="_blank">xola-ketsiwe</a>.</p>
-      </div>
-      </section>
-        <!-- Copy the whole <section> block to add more projects. --> 
-          <section class="more" class>
-          <div class="content-wrap">
-          <h3>LinkedIn Learnership</h3>
-          <dd><img src="images/annie-spratt-unsplash - Copy.jpg" width="200" height="200" alt="Xola Ketsiwe list"><p>Here are some adjectives for snow: else deep, clean suburban, new, undisturbed, coldly white and opaque, fine, icy, cold virgin, soon deep and treacherous, old, crystalline, dirty, weatherbeaten, still pristine and white, fairly deep and loose, smooth, powdery, white, grainy, hard powdery, nightal, cold nightal, heavy</p></dd>
-          <dd><img src="images/thumbnail-1.jpg" width="200" height="200" alt="Xola Ketsiwe list"></dd>
-          <dd><img src="images/sharon-mccutcheon-unsplash - Copy.jpg" width="200" height="200" alt="Xola Ketsiwe list"></dd>
-          <dd><img src="images/joanna-kosinska-unsplash - Copy.jpg" width="200" height="200" alt="Xola Ketsiwe list"></dd>
-          <!--<p>Storyline may refer to: The plot or subplot of a story. The narrative of a work, whether of fictional or nonfictional basis. The narrative threads experienced by each character or set of characters in a work of fiction. The storyline method of teaching.</p>-->
-          <a href="#" target="_blank">View project / case study</a>
+    <link rel="stylesheet" href="style.css">
+    <title>Prospects</title>
+</head>
+<body>
+    <h1>Prospects</h1>
+    <p>Process Stage:</p>
+    <form>
+        <div class="multiselect">
+          <div class="selectBox" onclick="showCheckboxes()">
+            <select>
+              <option>All</option>
+            </select>
+            <div class="overSelect"></div>
           </div>
-        </section>
-        
-        <!-- End of Project block. -->
-      </section>
-
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section  class="work">
-        <div class="content-wrap">
-        <h2>I have not yet had the opportunity to obtain any work experience after Matric.</h2>
-
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Developer</h3>
-          <p>Microsoft</p>
-          <p>06/18/2021</p>
-          <p>A Microsoft developer is a computer programmer or software engineer who has earned certification through Microsoft. Computer programmers take the software developed by software engineers and write the instructional code for computer systems. They may also be tasked with adding to programs</p>
-        </div>
-        </section>
-        <!-- End of Job block. -->
-      </section>
-
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
-        <div class="content-wrap">
-        <h2>Education
-          <p>A Microsoft developer is a computer programmer or software engineer who has earned certification through Microsoft. Computer programmers take the software developed by software engineers and write the instructional code for computer systems. They may also be tasked with adding to programs</p>
-        </h2>
-        </div>
-      </section>
-        
-      <!-- Copy this whole <section> block to add more schools. -->
-        <section class="school">
-          <div class="content-wrap">
-          <h3>CapaCiTi Systems Development NQF Level 5 Learnership - Cape Town</h3>
-          <p>
-            <li>2020: Udemy – Intro to JavaScript</li>
-            <li>2019: Hindle High School</li>
-            </p>
-          <p>Soccer Team Captain, 100% attendance at CapaCiTi, Attended ABSA inaugural Hackathon, Member of delivery team for COVID-19 online booking system for CapaCiTi to be used at CPT Campus.
-            </p>
+          <div id="checkboxes">
+            <label for="one">
+              <input type="checkbox" id="one" />Market Identification.</label>
+            <label for="two">
+              <input type="checkbox" id="two" />Long term positioning.</label>
+            <label for="three">
+              <input type="checkbox" id="three" />Opportunity Assessment (Identification and Qualification).</label>
+            <label for="four">
+                <input type="checkbox" id="four" />Opportunity/Capture Planning.</label>
+            <label for="five">
+                <input type="checkbox" id="five" />Proposal Planning.</label>
+            <label for="six">
+                <input type="checkbox" id="six" />Proposal Development.</label>
+            <label for="seven">
+                <input type="checkbox" id="seven" />Negotiation and Post-Submittal Activity.</label>
+            <label for="eight">
+                <input type="checkbox" id="eight" />Delivery and Ongoing Customer Relationships.</label>
           </div>
-        </section>
-        <!-- End of School block. -->
-      </section>
+        </div>
+      </form>
+      <button id="ClickButton" type="button">Search</button> 
+      <button id= "NewProspect" type="button">Add New Prospects</button>
+      
+      <!------my content-->
+<table>
+  <thead>
+      <tr>
+          <th scope="col">RAG</th>
+          <th scope="col">Rank</th>
+          <th scope="col">Organisation</th>
+          <th scope="col">Stakeholder</th>
+          <th scope="col">Programme Name</th>
+          <th scope="col">Process Stage</th>
+          <th scope="col">Project Value</th>
+          <th scope="col">Proposal Success</th>
+          <th scope="col">Procurement Registered Date</th>
+          <th scope="col">Mailing list</th>
+          <th scope="col">Link</th>
+          <th scope="col">Comments</th>
+          <th scope="col">Tender Requirements</th>
+          <th scope="col">Outstanding Actions</th>
+          <th scope="col"></th>
+      </tr>
 
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <div class="content-wrap">
-        <h2>Let's Keep in Touch!</h2>
+  </thead>
+  <tbody>
+      <tr>
+          <td data-label="RAG">Amber</td>
+          <td data-label="Rank">1</td>
+          <td data-label="Organisation">Discovery</td>
+          <td data-label="Stakeholder">BSG</td>
+          <td data-label="Programme Name">BSG Project</td>
+          <td data-label="Process Stage">Proposal Development</td>
+          <td data-label="Project Value">345555,00</td>
+          <td data-label="Project Success">Submitted</td>
+          <td data-label="Procurement Registered Date">2021/06/15</td>
+          <td data-label="Mailing list"><input type="checkbox" id="Mailing"/></td>
+          <td data-label="Link"><a href="https://www.google.com/search?" target="_blank">www.google.com</td></a>
+          <td data-label="Comments">Testing Comment</td>
+          <td data-label="Tender Requirements">Tender document required</td>
+          <td data-label="Outstanding Actions">Compile tender document</td>
+          <td data-label=""><a href="Edit" target="_blank">Edit||</a><a href="Details" target="_blank">Details||</a><a href="Delete" target="_blank">Delete</a></td>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul content-list>
-          <li><a href="mailto:xolaketsiwe565@gmail.com">xolaketsiwe565.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
-      </div>
-      </footer>
-    </main>
-  </body>
+
+      </tr>
+
+      <tr>
+          <td scope="row" data-label="RAG">Red</td>
+          <td data-label="Rank">1</td>
+          <td data-label="Organisation">BSG</td>
+          <td data-label="Stakeholder">Samsung</td>
+          <td data-label="Programme Name">Samsung Project1</td>
+          <td data-label="Process Stage">Opportunity Assessment</td>
+          <td data-label="Project Value">345376,00</td>
+          <td data-label="Project Success">Awarded</td>
+          <td data-label="Procurement Registered Date">2021/06/14</td>
+          <td data-label="Mailing list"><input type="checkbox" id="Mailing"/></td>
+          <td data-label="Link"><a href="https://www.google.com/search?" target="_blank">www.google.com</td></a>
+          <td data-label="Comments">Testing Comment</td>
+          <td data-label="Tender Requirements">Tender document required</td>
+          <td data-label="Outstanding Actions">Compile tender document</td>
+          <td data-label=""><a href="Edit" target="_blank">Edit||</a><a href="Details" target="_blank">Details||</a><a href="Delete" target="_blank">Delete</a></td>
+      </tr>
+      <tr>
+          <td scope="row" data-label="RAG">Amber</td>
+          <td data-label="Rank">4</td>
+          <td data-label="Organisation">StandardBank</td>
+          <td data-label="Stakeholder">Soraya</td>
+          <td data-label="Programme Name">StandardGirls</td>
+          <td data-label="Process Stage">Opportunity Assessment</td>
+          <td data-label="PProject Value">12000,00</td>
+          <td data-label="Project Success">Submitted</td>
+          <td data-label="Procurement Registered Date">2021/06/15</td>
+          <td data-label="Mailing list"><input type="checkbox" id="Mailing"/></td>
+          <td data-label="Link"></td>
+          <td data-label="Comments">Wonderful project</td>
+          <td data-label="Tender Requirements"></td>
+          <td data-label="Outstanding Actions"></td>
+          <td data-label=""><a href="Edit" target="_blank">Edit||</a><a href="Details" target="_blank">Details||</a><a href="Delete" target="_blank">Delete</a></td>
+      </tr>
+
+      <tr>
+        <td scope="row" data-label="RAG">Red</td>
+        <td data-label="Rank">4</td>
+        <td data-label="Organisation">StandardBank</td>
+        <td data-label="Stakeholder">Soraya</td>
+        <td data-label="Programme Name">FNB</td>
+        <td data-label="Process Stage">Market Identification</td>
+        <td data-label="PProject Value">12000,00</td>
+        <td data-label="Project Success">Submitted</td>
+        <td data-label="Procurement Registered Date">2021/06/18</td>
+        <td data-label="Mailing list"><input type="checkbox" id="Mailing"/></td>
+        <td data-label="Link"></td>
+        <td data-label="Comments"></td>
+        <td data-label="Tender Requirements"></td>
+        <td data-label="Outstanding Actions"></td>
+        <td data-label=""><a href="Edit" target="_blank">Edit||</a><a href="Details" target="_blank">Details||</a><a href="Delete" target="_blank">Delete</a></td>
+    </tr>
+
+    <tr>
+      <td scope="row" data-label="RAG">Green</td>
+      <td data-label="Rank">1</td>
+      <td data-label="Organisation">FNB</td>
+      <td data-label="Stakeholder">Cynthia Augustine</td>
+      <td data-label="Programme Name">Skills Development</td>
+      <td data-label="Process Stage">Market Identification</td>
+      <td data-label="PProject Value">20000,00</td>
+      <td data-label="Project Success">Outstanding</td>
+      <td data-label="Procurement Registered Date">2021/06/24</td>
+      <td data-label="Mailing list"><input type="checkbox" id="Mailing"/></td>
+      <td data-label="Link"></td>
+      <td data-label="Comments"></td>
+      <td data-label="Tender Requirements"></td>
+      <td data-label="Outstanding Actions"></td>
+      <td data-label=""><a href="Edit" target="_blank">Edit||</a><a href="Details" target="_blank">Details||</a><a href="Delete" target="_blank">Delete</a></td>
+  </tr>
+
+  </tbody>
+</table>
+<script>
+  var expanded = false;
+
+function showCheckboxes() {
+var checkboxes = document.getElementById("checkboxes");
+if (!expanded) {
+  checkboxes.style.display = "block";
+  expanded = true;
+} else {
+  checkboxes.style.display = "none";
+  expanded = false;
+}
+}
+</script>
+</body>
 </html>

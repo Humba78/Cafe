@@ -1,28 +1,51 @@
-/*====headingstyling=====*/
-
 h1{
-    margin-top: 35px;
+    /*margin-left: 55px;*/
+    margin-top: 35px
 }
-
+.flex{
+    display: flex;
+}
 p{
+    /*margin-left: 55px;*/
     margin-top: -15px;
 }
 
 body{
     background-color:lightgrey;
 }
+ul{
+    display:flex;
+    justify-content:flex-end;
+    margin-top: 640px;
+    margin-right: 50px;
+}
 
-/*===dropdownbox===*/
+.i{
+    position: absolute;
+}
+
+
+i:hover{
+    cursor: pointer;
+    color:goldenrod;
+}
 
 .multiselect {
     width: 300px;
 }
-
+  
+.selectBox {
+    position: relative;
+    margin-top: -670px;
+    /*margin-left: 55px;*/
+    cursor: pointer;
+}
+  
 .selectBox select {
     width: 100%;
     font-weight: bold;
 }
-
+  
 .overSelect {
     position: absolute;
     left: 0;
@@ -30,26 +53,21 @@ body{
     top: 0;
     bottom: 0;
 }
-
-.selectBox{
-    cursor: pointer;
-    position: relative;
-}
-
+  
 #checkboxes {
     display: none;
     border: 1px #dadada solid;
+    /*margin-left: 50px;*/
 }
-
+  
 #checkboxes label {
     display: block;
 }
-
+  
 #checkboxes label:hover {
     background-color: #1e90ff;
     cursor: pointer;
 }
-
 #ClickButton{
     background-color:darkcyan;
     border: #000 solid 1px;
@@ -57,6 +75,7 @@ body{
     height: 30px;
     transition: .60s;
     margin-top: 1px;
+    /*margin-left: 55px;*/
 }
 
 #ClickButton:hover{
@@ -65,20 +84,11 @@ body{
     cursor: pointer;
 }
 
-#NewProspect{
-    background-color:cornflowerblue;
-    border: #000 solid 1px;
-    height: 30px;
-    transition: .30s;
-}
-
-#NewProspect:hover{
+#Mailing{
     cursor: pointer;
-    border: #dadada solid 2px;
 }
 
-/*====table===*/
-
+/*----content----*/
 label {
     display: block;
     font: 1rem 'Kaisei Opti', serif;
